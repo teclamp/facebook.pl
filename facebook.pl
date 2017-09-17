@@ -1,8 +1,7 @@
-#!/usr/bin/perl
 # Date: 17/09/2017
 # Distro: Kali Linux + Parrot Sec ....
 # Author: ABDEALAM BELMERABET
-
+#!/usr/bin/perl
 
 use strict;
 use warnings;
@@ -12,7 +11,7 @@ use Net::SSLeay::Handle;
 my $host = "www.facebook.com";
 my $port = "443";
 
-print color("light green"), "\n", q "
+print color("bold green"), "\n", q "
 
 ████████╗███████╗ ██████╗  ██╗      █████╗ ███╗   ███╗██████╗ 
 ╚══██╔══╝██╔════╝██╔════╝  ██║     ██╔══██╗████╗ ████║██╔══██╗
