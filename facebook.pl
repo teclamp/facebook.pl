@@ -92,9 +92,10 @@ while (<$list>) {
 
 	print "Testing -> $_\n";
 
-	if (defined $success) {
+if (defined $success) {
 		print "\nPASSWORD CRACKED -> $_\n";
-		print "\nBye =P\n\n";
+		print "\Youtube: youtube.com/teclamp\n\n";
+		print "Facebook: facebook/teclamp\n\n";
 		close SSL;
 		exit;
 	}
