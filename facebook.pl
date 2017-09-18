@@ -13,7 +13,7 @@ my $port = "443";
 
 print color("bold green"), "\n", q "
 
-|+#########"(facebook.pl)#########+|{}\n'.format(R,W)
+|+#########"(facebook.pl)#########+|
 |+###Author: Abdesalam Belmerabet  ###+|
 |+###Youtube: youtube.com/teclamp  ###+|
 |+###Facebook: facebook/teclamp  ###+|
