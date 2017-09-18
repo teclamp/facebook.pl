@@ -13,12 +13,11 @@ my $port = "443";
 
 print color("bold green"), "\n", q "
 
-████████╗███████╗ ██████╗  ██╗      █████╗ ███╗   ███╗██████╗ 
-╚══██╔══╝██╔════╝██╔════╝  ██║     ██╔══██╗████╗ ████║██╔══██╗
-   ██║   █████╗  ██║       ██║     ███████║██╔████╔██║██████╔╝
-   ██║   ██╔══╝  ██║       ██║     ██╔══██║██║╚██╔╝██║██╔═══╝ 
-   ██║   ███████╗╚██████╗  ███████╗██║  ██║██║ ╚═╝ ██║██║    
-   ╚═╝   ╚══════╝ ╚═════╝  ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝   ", "\n";
+|+#########"(facebook.pl)#########+|{}\n'.format(R,W)
+|+###Author: Abdesalam Belmerabet  ###+|
+|+###Youtube: youtube.com/teclamp  ###+|
+|+###Facebook: facebook/teclamp  ###+|
+|  +###Date: 17/09/2017  ###+ ", "\n";
 
 print "\nEnter [Username or Email or Account ID ]: 
 		                         └─► ";
@@ -93,9 +92,13 @@ while (<$list>) {
 	print "Testing -> $_\n";
 
 if (defined $success) {
-		print "\nPASSWORD CRACKED -> $_\n";
-		print "\Youtube: youtube.com/teclamp\n\n";
-		print "Facebook: facebook/teclamp\n\n";
+
+		print "############################# ";
+	         print "\nPASSWORD CRACKED -> $_\n";
+		print "############################# ";
+
+		print "#Youtube: youtube.com/teclamp#\n\n";
+		print "#Facebook: facebook/teclamp#\n\n";
 		close SSL;
 		exit;
 	}
